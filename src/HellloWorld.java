@@ -5,7 +5,7 @@ public class HellloWorld {
 		System.out.println();
 		System.out.print("Welcome to Java Programming");
 		System.out.println();
-		System.out.print("This is my Second Java Project");
+		System.out.print("This is my Third Java Project");
 		
 	}
 
