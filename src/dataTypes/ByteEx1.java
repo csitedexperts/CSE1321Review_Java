@@ -8,7 +8,7 @@ public class ByteEx1{
 		System.out.println("byte type size: " + 	Byte.SIZE);
 
 		byte  value1 = 100;  // Legal Assigning
-		byte  value2 = 120; // Legal Assigning
+		byte  value2 = 127; // Legal Assigning
 		
 //		byte sum = value1 + value2;
 		
