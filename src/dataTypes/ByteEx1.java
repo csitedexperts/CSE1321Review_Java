@@ -5,15 +5,15 @@ public class ByteEx1{
 		
 		System.out.println("byte type min value: " + Byte.MIN_VALUE);
 		System.out.println("byte type max value: " + Byte.MAX_VALUE);
-		System.out.println("byte type size: " + Byte.SIZE);
+		System.out.println("byte type size: " + 	Byte.SIZE);
 
-		byte  Value1 = 100;  // Legal Assigning
-		byte  Value2 = 127; // Legal Assigning
+		byte  value1 = 100;  // Legal Assigning
+		byte  value2 = 120; // Legal Assigning
 		
-		int sum = Value1 + Value2;
+//		byte sum = value1 + value2;
 		
-		System.out.println("Value1: " +Value1);
-		System.out.println("Value2: " +Value2);
+		System.out.println("Value1: " +value1);
+		System.out.println("Value2: " +value2);
 
 	}
 }

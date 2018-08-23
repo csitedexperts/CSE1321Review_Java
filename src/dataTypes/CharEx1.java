@@ -6,8 +6,9 @@ public class CharEx1{
 		System.out.println("char type max value: " + (int) Character.MAX_VALUE);
 		System.out.println("char type size: " + Character.SIZE);
 
-		char Ch1 = 4;
-		char Ch2= '$';
+		char Ch1 = 67;
+		char Ch2= 'C';
+		
 		System.out.println("Ch1: " +Ch1);
 		System.out.println("Ch2: " +Ch2);
 	}

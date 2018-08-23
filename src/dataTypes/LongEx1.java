@@ -2,6 +2,7 @@ package dataTypes;
 public class LongEx1{
 	
 	public static void main(String args[]) {
+		
 		System.out.println("long type min value: " + Long.MIN_VALUE);
 		System.out.println("long type max value: " + Long.MAX_VALUE);
 		System.out.println("long type size: " + Long.SIZE);
@@ -14,4 +15,5 @@ public class LongEx1{
 		System.out.print("light rays will travel about ");
 		System.out.println(distance + " miles");
 	}
+	
 }
