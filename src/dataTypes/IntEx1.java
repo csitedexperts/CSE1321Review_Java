@@ -9,7 +9,7 @@ public class IntEx1{
 		int  Value1 = -2147483648;  // Legal Assigning
 		int  Value2 = 2147483647 ; // Legal Assigning
 		
-		long Value3 = 2 * Value2;
+		long Value3 = (long) 2 * Value2;
 		
 		System.out.println("Value1: " +Value1);
 		System.out.println("Value2: " +Value2);
