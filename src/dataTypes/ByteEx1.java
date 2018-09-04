@@ -10,10 +10,13 @@ public class ByteEx1{
 		byte  value1 = 100;  // Legal Assigning
 		byte  value2 = 127; // Legal Assigning
 		
+		int  value3 = 2* value2;
+		
 //		byte sum = value1 + value2;
 		
 		System.out.println("Value1: " +value1);
 		System.out.println("Value2: " +value2);
+		System.out.println("Value3: " +value3);
 
 	}
 }
