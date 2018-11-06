@@ -1,12 +1,13 @@
-package arrays;
+package chapter06_Arrays;
+
+
 
 public class J06_04 {
-	public static void main(String[] args) {
-//		int[] Mark;
-//		Mark = new int [5];
 
-		int[] Mark = new int [50];
-		
+	public static void main(String[] args) {
+
+		int Mark[];
+		Mark = new int [5];
 		Mark[0] = 23;
 		Mark[1] = 54;
 		Mark[2] = 50;
@@ -14,8 +15,6 @@ public class J06_04 {
 		Mark[4] = 65;
 
 		int L = Mark.length;
-		System.out.println("L = " + L);
-		
 		for (int i = 0; i<L; ++i){
 			System.out.println("Mark[" +i +"] = " +Mark[i]);
 		}  // End of for
