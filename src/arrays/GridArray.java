@@ -4,6 +4,7 @@ public class GridArray {
 
 	public static void main(String[] args) {
 		int count = 1;
+		
 		int[][] grid = new int[4][5];
 		for (int r = 0; r <= 3; r++)
 		{

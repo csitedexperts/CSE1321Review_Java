@@ -8,7 +8,6 @@ public class PrintNumbers {
 			x = x + i;
 			System.out.print(x + "  ");
 
-
 		}
 
 	}
