@@ -1,41 +1,57 @@
 package sortingAlgs;
 
-public class InsertionSort {
 
-    public static void insertionSortImperative(int[] input) {
-        for (int i = 1; i < input.length; i++) {
-            int key = input[i];
-            int j = i - 1;
-            while (j >= 0 && input[j] > key) {
-                input[j + 1] = input[j];
-                j = j - 1;
-            }
-            input[j + 1] = key;
-        }
-    }
+/*Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in wrong order.
+Java  // https://www.geeksforgeeks.org/java-program-for-bubble-sort/
+// https://www.javatpoint.com/bubble-sort-in-java
+ */
+// Java program for implementation of Bubble Sort
+public class InsertionSort
+{
+	public static void insertionSort(int arr[])
+	{
+		int n = arr.length; 
+        for (int i=1; i<n; ++i) 
+        { 
+            int key = arr[i]; 
+            int j = i-1; 
+  
+            /* Move elements of arr[0..i-1], that are 
+               greater than key, to one position ahead 
+               of their current position */
+            while (j>=0 && arr[j] > key) 
+            { 
+                arr[j+1] = arr[j]; 
+                j = j-1; 
+            } 
+            arr[j+1] = key; 
+        } 
+        
+	}
 
-    public static void insertionSortRecursive(int[] input) {
-        insertionSortRecursive(input, input.length);
-    }
 
-    private static void insertionSortRecursive(int[] input, int i) {
-        // base case
-        if (i <= 1) {
-            return;
-        }
+	// Driver method to test above
+	public static void main(String args[])
+	{
+		int arr[] = {64, 34, 25, 12, 22, 11, 90};
 
-        // sort the first i - 1 elements of the array
-        insertionSortRecursive(input, i - 1);
+		System.out.println("Unsorted array");
+		/* Prints the array */
+		for (int i=0; i<arr.length; ++i) {
+			System.out.print(arr[i] + " ");
+		}
 
-        // then find the correct position of the element at position i
-        int key = input[i - 1];
-        int j = i - 2;
-        // shifting the elements from their position by 1
-        while (j >= 0 && input[j] > key) {
-            input[j + 1] = input[j];
-            j = j - 1;
-        }
-        // inserting the key at the appropriate position
-        input[j + 1] = key;
-    }
+		System.out.println();
+		
+		insertionSort(arr);
+		System.out.println("Sorted array");
+		/* Prints the array */
+
+		for (int i=0; i<arr.length; ++i) {
+			System.out.print(arr[i] + " ");
+		}
+		
+		System.out.println();
+	}
+
 }
