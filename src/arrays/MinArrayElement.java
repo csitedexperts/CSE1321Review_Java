@@ -22,7 +22,7 @@ public static void main(String [] args) {
 		Mark[0] = 23;
 		Mark[1] = 54;
 		Mark[2] = 50;
-		Mark[3] = 45;
+		Mark[3] = -45;
 		Mark[4] = 65;
 		
 		FindMin(Mark);

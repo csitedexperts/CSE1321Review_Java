@@ -36,13 +36,8 @@ public class BinarySearchAlgs {
 
 		//		System.out.println(
 
-		BinarySearch1(myData, 5);
+		BinarySearch1(myData, 7);
 
-		System.out.println("==================================");
-
-		//		System.out.println(
-
-		binarySearch2(myData, 5);
 
 	}
 
